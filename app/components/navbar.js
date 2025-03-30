@@ -2,7 +2,6 @@
 
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-
 import { Phone, Mail, Facebook, Instagram } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -20,7 +19,7 @@ export default function NavBar() {
     const activeStyle = "underline";
 
     return (
-        <header>
+        <header className="font-navbar">
         {/* Top bar */}
         <div className="bg-[#644F41] text-white px-4 py-2 flex justify-between items-center text-sm">
             <div className="flex items-center gap-6 ml-3">
