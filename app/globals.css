@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Marcellus&display=swap');
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
   --font-jetbrains: "JetBrains Mono", monospace;
+  --font-marcellus: "Marcellus", serif;
+  --font-inter: "Inter", sans-serif;
 }
 
 @theme inline {
@@ -31,3 +33,16 @@ body {
 .font-navbar {
   font-family: var(--font-jetbrains);
 }
+
+button {
+  font-family: var(--font-jetbrains);
+}
+
+h1, h2 {
+  font-family: var(--font-marcellus);
+}
+
+p {
+  font-family: var(--font-inter);
+}
+
