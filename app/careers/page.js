@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import NavBar from "../components/navbar";
 import CareersSection from "../components/CareersSection";
+import CareerPositions from "../components/CareerPositions";
 import Footer from "../components/Footer";
 
 
@@ -14,6 +15,7 @@ const router = useRouter();
   <div className="flex flex-col min-h-screen"> 
     <NavBar/>
     <CareersSection imageUrl="/mainbanner2.jpg"/>
+    <CareerPositions/>
     <Footer/>
   </div>
   );

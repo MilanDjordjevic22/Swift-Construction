@@ -6,6 +6,7 @@ import RequestQuoteForm from '../components/RequestQuoteForm';
 import Footer from '../components/Footer';
 import AboutSection from '../components/AboutSection';
 import WhyChooseUs from "../components/WhyChooseUs";
+import Reviews from "../components/Reviews";
 
 export default function AboutUs() {
   
@@ -16,6 +17,7 @@ const router = useRouter();
     <NavBar/>
     <AboutSection imageUrl="/mainbanner2.jpg"/>
     <WhyChooseUs/>
+    <Reviews/>
     <RequestQuoteForm/>
     <Footer/>
   </div>
