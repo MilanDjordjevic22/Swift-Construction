@@ -2,6 +2,9 @@
 
 import { useRouter } from "next/navigation";
 import NavBar from "../components/navbar";
+import CareersSection from "../components/CareersSection";
+import Footer from "../components/Footer";
+
 
 export default function Careers() {
   
@@ -10,7 +13,8 @@ const router = useRouter();
   return (
   <div className="flex flex-col min-h-screen"> 
     <NavBar/>
-    <h1>CAREERS</h1>
+    <CareersSection imageUrl="/mainbanner2.jpg"/>
+    <Footer/>
   </div>
   );
 }
