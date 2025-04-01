@@ -19,8 +19,7 @@ const HeroBanner = ({ imageUrl }) => {
         </h2>
 
         <p className="text-base md:text-lg text-white mb-6">
-          Our team specializes in exterior remodeling for both residential and commercial properties,
-          delivering high-quality, turnkey solutions tailored to each project.
+        Our team specializes in exterior remodeling for residential and commercial properties, providing high-quality, customized solutions designed to fit each project's unique needs.
         </p>
 
         {/* Buttons */}
