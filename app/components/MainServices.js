@@ -12,11 +12,10 @@ const MainServices = ({ imageUrl }) => {
       {/* Center Box */}
       <div className="relative z-10 max-w-2xl bg-[#6B4F3B] bg-opacity-95 text-white p-10 rounded-md shadow-lg text-center">
         <h1 className="text-6xl font-serif font-semibold mb-4">Services</h1>
-        <p className="text-sm md:text-base leading-relaxed">
-          consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <p className="text-[18px] mx-8">
+          At Swift Construction we specialize in a variety of exterior services including stucco, EIFS, masonry, siding, painting and more.
+          Explore your options to enhance the exterior apperance in your home. 
+          You can trust Swift will get the job done swiftly and professionally. 
         </p>
       </div>
     </div>

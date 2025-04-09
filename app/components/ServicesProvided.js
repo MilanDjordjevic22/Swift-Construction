@@ -27,6 +27,7 @@ const ServicesProvided = () => {
   return (
     <section className="py-20 px-4 bg-white text-black">
       <div className="max-w-6xl mx-auto flex flex-col gap-16">
+        <h2 className="text-4xl font-serif font-semibold text-center mb-16">Servcies Provided</h2>
         {services.map((service, index) => (
           <div
             key={index}
