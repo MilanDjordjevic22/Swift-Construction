@@ -4,19 +4,23 @@ import { FaPlus, FaMinus } from 'react-icons/fa';
 const accordionData = [
   {
     question: 'What services do you offer?',
-    answer: 'We specialize in exterior renovations, including siding, painting, decks, and more.',
+    answer: 'We specialize in stucco, Hardie board installation, exterior painting, and stone masonry for both residential and commercial properties.',
   },
   {
-    question: 'How do I request a quote?',
-    answer: 'Simply click the "Get A Quote" button and fill out the form. We’ll get back to you shortly!',
+    question: 'Do you provide free estimates?',
+    answer: 'Yes! We’re happy to provide a free, no-obligation estimate for your project.',
   },
   {
-    question: 'Do you offer commercial services?',
-    answer: 'Yes, we handle both residential and commercial projects with dedicated crews for each.',
+    question: 'Are you licensed and insured?',
+    answer: 'Absolutely. We’re fully licensed and insured for all the work we do.',
   },
   {
-    question: 'How long does a typical project take?',
-    answer: 'Most projects take 1-3 weeks depending on scope, materials, and weather conditions.',
+    question: 'How soon can you start a project?',
+    answer: 'Start times vary depending on the season and scope of the project, but we always aim to begin as soon as possible. Contact us to check availability.',
+  },
+  {
+    question: 'Do you work year-round?',
+    answer: 'Yes, we operate year-round and adjust our workflow to fit the weather conditions in Calgary.',
   },
 ];
 

@@ -4,17 +4,17 @@ const whyItems = [
   {
     title: 'Unmatched Craftsmanship & Durability',
     image: '/craftsmanship.jpg', // replace with your actual image in /public
-    text: 'We take pride in delivering high-quality exterior construction that withstands the test of time. Our skilled professionals pay fine attention to detail and use premium materials to ensure durability, functionality, and aesthetic excellence in every project.',
+    text: 'We take pride in delivering high-quality exterior construction that stands the test of time. Our skilled professionals use top-tier materials and precision craftsmanship to ensure durability, functionality, and aesthetic appeal in every project.',
   },
   {
     title: 'Customer-Centric Approach',
     image: '/customer-approach.jpg',
-    text: 'Your satisfaction is our priority. We listen to what you need, provide expert recommendations, and work closely with you throughout the project to ensure every expectation is met. Our process is transparent, collaborative, and personalized.',
+    text: 'Your satisfaction is our priority. We listen to your vision, provide expert recommendations, and maintain clear communication throughout the project. From concept to completion, we work closely with you to bring your exterior dreams to life on time and within budget.',
   },
   {
     title: 'Reliable & Efficient Service',
     image: '/efficient-service.jpg',
-    text: 'We value your time and investment. Our team is committed to meeting deadlines, staying within budget, and delivering consistent communication. With our structured project management and dedicated crew, your job gets done right — with minimal unnecessary delays or hidden costs.',
+    text: 'We value your time and investment. Our team is committed to meeting deadlines, staying within budget, and exceeding expectations with efficient project management and transparent pricing. With us, you get quality work without unnecessary delays or hidden costs.',
   },
 ];
 

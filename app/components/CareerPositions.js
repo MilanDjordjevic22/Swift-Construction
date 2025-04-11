@@ -3,15 +3,18 @@ import React from 'react';
 const positions = [
   {
     image: '/position1.jpg',
-    text: 'Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    title: 'General Labourer',
+    text: 'We’re looking for reliable, hard-working general labourers to support our exterior renovation projects. Duties include site prep, material handling, clean-up, and assisting skilled tradespeople as needed.',
   },
   {
     image: '/position2.jpg',
-    text: 'Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    title: 'Stucco Finishing Technician',
+    text: 'Join our crew as a stucco and exterior finishing technician. In this role, you’ll apply stucco and help with other finishing tasks like patching, repairs, and prep work. Experience with trowels, mixers, and surface prep is a bonus, but we’re willing to train the right person.',
   },
   {
     image: '/position3.jpg',
-    text: 'Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    title: 'Siding Installer',
+    text: 'We’re hiring experienced siding installers who are comfortable working with Hardie board and other exterior materials. You’ll be responsible for accurate installation, cutting, and finishing to ensure clean, professional results on both residential and commercial projects.',
   },
 ];
 
@@ -25,9 +28,10 @@ const CareerPositions = () => {
           <div key={index} className="flex flex-col items-center text-sm text-gray-700">
             <img
               src={pos.image}
-              alt={`Position ${index + 1}`}
+              alt={pos.title}
               className="w-40 h-40 object-cover rounded-full mb-4 shadow-lg"
             />
+            <h3 className="text-base font-semibold mb-2">{pos.title}</h3>
             <p className="max-w-xs">{pos.text}</p>
           </div>
         ))}

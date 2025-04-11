@@ -4,22 +4,22 @@ const services = [
   {
     title: 'Stucco',
     image: '/stucco.jpg',
-    text: 'Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    text: 'Stucco is a durable and low-maintenance exterior finish that adds both insulation and style to your home or building. We offer expert application and repairs for a clean, long-lasting look.',
   },
   {
     title: 'Hardie Siding',
     image: '/hardie.jpg',
-    text: 'Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    text: 'Hardie board siding is a strong, weather-resistant option that gives your property a modern, polished appearance. It’s built to withstand harsh climates while boosting curb appeal.',
   },
   {
     title: 'Painting',
     image: '/painting.jpg',
-    text: 'Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    text: 'A fresh coat of exterior paint can completely transform your property. We use high-quality materials and professional techniques to ensure a smooth, lasting finish.',
   },
   {
     title: 'Stone',
     image: '/stone.jpg',
-    text: 'Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    text: 'Stone masonry adds timeless beauty and character to any exterior. From decorative features to full facades, we craft detailed, durable stonework to elevate your space.',
   },
 ];
 

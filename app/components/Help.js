@@ -9,9 +9,9 @@ const Help = () => {
 
       {/* Paragraph (narrow) */}
       <p className="text-sm max-w-xl mx-auto mb-12 text-gray-700">
-        Reach out to us by email or call us. Our team is always happy to assist!{' '}
+      Need to get in touch? Call or text us at the number or email below or check out our FAQ for quick answers to common questions. We’re here to help!{' '}
         <a
-          href="mailto:swiftconstruction.exteriors@outlook.com"
+          href="mailto:info@swiftconstructionltd.ca"
           className="text-blue-600 underline"
         >
           Click here to ask any quick questions or schedule a quote.

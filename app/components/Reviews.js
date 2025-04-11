@@ -2,18 +2,18 @@ import React from 'react';
 
 const reviews = [
   {
-    name: 'Julius Christenson',
-    text: 'Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: 'Karen L, Calgary Homeowner',
+    text: '“We hired this team for a full exterior makeover, including stucco and Hardie board installation, and we couldn’t be happier with the results. They were professional, efficient, and the final product looks amazing. Highly recommend!”',
     image: '/review1.jpg',
   },
   {
-    name: 'Honey Minch',
-    text: 'Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: 'James R, Business Owner',
+    text: '“Great experience from start to finish. They handled stone masonry and exterior painting for our commercial building, and the quality of work was top-notch. Communication was clear throughout the project. Will definitely be working with them again.”',
     image: '/review2.jpg',
   },
   {
-    name: 'Wesker Welsher',
-    text: 'Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: 'Melissa T, Home Renovation Client',
+    text: '“These guys know their stuff. Fast, friendly, and super detail-oriented. They fixed up some damaged stucco on our house and matched the texture perfectly. It looks brand new!”',
     image: '/review3.jpg',
   },
 ];
