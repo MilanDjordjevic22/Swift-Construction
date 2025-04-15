@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image'; 
 
 const whyItems = [
   {
@@ -30,7 +31,9 @@ const WhyChooseUs = () => {
               index % 2 !== 0 ? 'md:flex-row-reverse' : ''
             }`}
           >
-            <img
+            <Image
+              width={500}
+              height={500}
               src={item.image}
               alt={item.title}
               className="w-full md:w-[250px] h-[200px] object-cover rounded-lg shadow-lg"

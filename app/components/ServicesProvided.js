@@ -1,4 +1,6 @@
+import { ImageDown } from 'lucide-react';
 import React from 'react';
+import Image from 'next/image';
 
 const services = [
   {
@@ -36,7 +38,9 @@ const ServicesProvided = () => {
             }`}
           >
             {/* Image */}
-            <img
+            <Image
+              width={500}
+              height={500}
               src={service.image}
               alt={service.title}
               className="w-full md:w-1/2 h-[250px] object-cover rounded-lg shadow"

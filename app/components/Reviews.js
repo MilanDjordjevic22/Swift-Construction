@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+
 
 const reviews = [
   {
@@ -31,7 +33,9 @@ const Reviews = () => {
             key={index}
             className="bg-white p-6 rounded-lg shadow-md border text-center flex flex-col items-center"
           >
-            <img
+            <Image
+              width={160}
+              height={160}
               src={review.image}
               alt={review.name}
               className="w-24 h-24 rounded-full object-cover mb-4"
