@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Footer = () => {
 
@@ -15,7 +16,7 @@ const Footer = () => {
     {/* Left: Services */}
     <div className="flex items-start gap-[50px]">
       <Link href="/">
-        <img
+        <Image
           src="/Swift Construction Logo.svg" 
           alt="Building Icon"
           width={150}

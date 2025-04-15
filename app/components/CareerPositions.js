@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const positions = [
   {
@@ -26,9 +27,11 @@ const CareerPositions = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
         {positions.map((pos, index) => (
           <div key={index} className="flex flex-col items-center text-sm text-gray-700">
-            <img
+            <Image
               src={pos.image}
               alt={pos.title}
+              width={160}
+              height={160}
               className="w-40 h-40 object-cover rounded-full mb-4 shadow-lg"
             />
             <h3 className="text-base font-semibold mb-2">{pos.title}</h3>
