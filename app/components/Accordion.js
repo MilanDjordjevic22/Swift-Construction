@@ -32,19 +32,20 @@ const Accordion = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto py-10">
+    <div className="max-w-4xl w-full mx-auto py-5">
+      <h2 className="text-4xl text-center mb-10">Frequently Asked Questions</h2>
       {accordionData.map((item, index) => (
-        <div key={index} className="mb-4 border border-yellow-600 rounded">
+        <div key={index} className="mb-4 border border-[#A4792A] rounded">
           <button
             onClick={() => toggleAccordion(index)}
-            className="w-full flex justify-between items-center px-4 py-3 bg-[#D7AF4D] hover:bg-[#b98e32] text-white text-sm font-medium rounded"
+            className="w-full flex justify-between items-center px-8 py-3 bg-[#A4792A] hover:bg-[#b98e32] text-white text-sm font-medium rounded"
           >
             {item.question}
             {openIndex === index ? <FaMinus /> : <FaPlus />}
           </button>
 
           {openIndex === index && (
-            <div className="bg-white text-black text-sm px-4 py-3 transition-all duration-200 ease-in-out">
+            <div className="bg-white text-black text-sm px-8 py-3 transition-all duration-200 ease-in-out rounded">
               {item.answer}
             </div>
           )}

@@ -1,53 +1,71 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import Link from 'next/link';
 
 const Footer = () => {
+
+  const navLinks = [
+    { href: "/services", label: "Our Services" }
+  ];
+
   return (
     <footer className="bg-[#644F41] text-white py-10 px-6">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-8">
-        {/* Left: Services */}
-        <div className="flex items-start gap-4">
+    <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:gap-[500px] gap-6">
+    
+    {/* Left: Services */}
+    <div className="flex items-start gap-[50px]">
+      <Link href="/">
         <img
-            src="/Swift Construction Logo.svg" // replace with your actual image path in public/
-            alt="Building Icon"
-            width={150}
-            height={150}
+          src="/Swift Construction Logo.svg" 
+          alt="Building Icon"
+          width={150}
+          height={150}
         />
-          <div>
-            <h3 className="font-semibold text-lg mb-2">Our Services</h3>
-            <ul className="text-sm space-y-1">
-              <li>▸ Siding</li>
-              <li>▸ Exterior Detailing</li>
-              <li>▸ Painting</li>
-              <li>▸ Decks</li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Right: Contact Info */}
-        <div>
-          <h3 className="font-semibold text-lg mb-2">Contact Us</h3>
-          <ul className="text-sm space-y-1 mb-4">
-            <li className="flex items-center gap-2">
-              <FaPhoneAlt className="text-sm" />
-              <span>587-586-1996</span>
-            </li>
-            <li className="flex items-center gap-2">
-              <FaEnvelope className="text-sm" />
-              <span>swiftconstruction.exteriors@outlook.com</span>
-            </li>
-          </ul>
-          <div className="flex gap-4 text-xl">
-            <a href="#" className="hover:text-yellow-400">
-              <FaFacebookF />
-            </a>
-            <a href="#" className="hover:text-yellow-400">
-              <FaInstagram />
-            </a>
-          </div>
-        </div>
+      </Link>
+      <div>
+        {navLinks.map((link) => (
+          <li key={link.href} className="list-none">
+          <Link
+            href={link.href}
+            className="font-semibold text-[26px] mb-2"
+            >
+            {link.label}
+          </Link>
+          </li>
+        ))}
+        <ul className="text-sm space-y-1 text-[14px]">
+          <li>Siding</li>
+          <li>Exterior Detailing</li>
+          <li>Painting</li>
+          <li>Decks</li>
+        </ul>
       </div>
-    </footer>
+    </div>
+
+    {/* Right: Contact Info */}
+    <div>
+      <h3 className="font-semibold text-[26px] mb-2">Contact Us</h3>
+      <ul className="text-[14px] space-y-1 mb-4">
+        <li className="flex items-center gap-2">
+          <FaPhoneAlt />
+          <span className="font-normal">403-383-2655</span>
+        </li>
+        <li className="flex items-center gap-2">
+          <FaEnvelope />
+          <span className="font-normal">info@swiftconstructionltd.ca</span>
+        </li>
+      </ul>
+      <div className="flex gap-4 text-xl">
+        <a href="https://www.facebook.com/p/Swift-Construction-Ltd-100063935049998/?locale=en_GB" className="hover:text-yellow-400">
+          <FaFacebookF />
+        </a>
+        <a href="https://www.instagram.com/swift_construction.ltd/" className="hover:text-yellow-400">
+          <FaInstagram />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
   );
 };
 

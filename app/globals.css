@@ -34,7 +34,7 @@ body {
   font-family: var(--font-jetbrains);
 }
 
-button {
+button, footer {
   font-family: var(--font-jetbrains);
 }
 
@@ -44,5 +44,9 @@ h1, h2 {
 
 p {
   font-family: var(--font-inter);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 

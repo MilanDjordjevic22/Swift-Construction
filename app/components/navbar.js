@@ -68,9 +68,11 @@ export default function NavBar() {
                 </ul>
 
                 {/* Quote Button */}
-                <button className="bg-[#D7AF4D] hover:bg-[#b98e32] text-white font-mono px-4 py-2 rounded-xl text-sm mr-3">
-                    Get A Quote
-                </button>
+                <Link href="#quote" scroll={true}>
+                    <button className="bg-[#A4792A] hover:bg-[#b98e32] text-white font-mono px-6 py-2 rounded-xl text-sm mr-3">
+                        Get A Quote
+                    </button>
+                </Link>
             </nav>
         </header>
     );

@@ -21,7 +21,7 @@ const whyItems = [
 const WhyChooseUs = () => {
   return (
     <section className="py-20 px-4 bg-white text-black">
-      <h2 className="text-4xl font-serif font-semibold text-center mb-16">Why Choose Us?</h2>
+      <h2 className="text-4xl font-semibold text-center mb-16">Why Choose Us?</h2>
       <div className="max-w-6xl mx-auto flex flex-col gap-16">
         {whyItems.map((item, index) => (
           <div
