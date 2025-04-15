@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 
-
 const reviews = [
   {
     name: 'Karen L, Calgary Homeowner',
@@ -34,10 +33,10 @@ const Reviews = () => {
             className="bg-white p-6 rounded-lg shadow-md border text-center flex flex-col items-center"
           >
             <Image
-              width={160}
-              height={160}
               src={review.image}
               alt={review.name}
+              width={160}
+              height={160}
               className="w-24 h-24 rounded-full object-cover mb-4"
             />
             <h3 className="font-semibold text-lg mb-2">{review.name}</h3>

@@ -28,10 +28,10 @@ const CareerPositions = () => {
         {positions.map((pos, index) => (
           <div key={index} className="flex flex-col items-center text-sm text-gray-700">
             <Image
-              width={160}
-              height={160}
               src={pos.image}
               alt={pos.title}
+              width={160}
+              height={160}
               className="w-40 h-40 object-cover rounded-full mb-4 shadow-lg"
             />
             <h3 className="text-base font-semibold mb-2">{pos.title}</h3>

@@ -32,10 +32,10 @@ const WhyChooseUs = () => {
             }`}
           >
             <Image
-              width={500}
-              height={500}
               src={item.image}
               alt={item.title}
+              width={500}
+              height={500}
               className="w-full md:w-[250px] h-[200px] object-cover rounded-lg shadow-lg"
             />
             <div className="md:w-2/3">
