@@ -8,13 +8,13 @@ const positions = [
   },
   {
     image: '/position2.jpg',
-    title: 'Stucco Finishing Technician',
-    text: 'Join our crew as a stucco and exterior finishing technician. In this role, you’ll apply stucco and help with other finishing tasks like patching, repairs, and prep work. Experience with trowels, mixers, and surface prep is a bonus, but we’re willing to train the right person.',
+    title: 'Office Assistant',
+    text: 'Join our team as an office assistant and be the first point of contact for clients and crew. In this role, you’ll handle calls, scheduling, file management, and general administrative support. Strong communication and organizational skills are key, and we’re happy to train the right person.',
   },
   {
     image: '/position3.jpg',
-    title: 'Siding Installer',
-    text: 'We’re hiring experienced siding installers who are comfortable working with Hardie board and other exterior materials. You’ll be responsible for accurate installation, cutting, and finishing to ensure clean, professional results on both residential and commercial projects.',
+    title: 'Painter',
+    text: 'We’re hiring experienced painters who are skilled in exterior and interior painting for both residential and commercial projects. You’ll be responsible for surface preparation, precise application, and finishing work to ensure clean, professional results that meet our quality standards.',
   },
 ];
 
