@@ -15,10 +15,31 @@ const RequestQuoteForm = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-  };
+  
+    try {
+      const res = await fetch("/api/quote", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+  
+      const data = await res.json();
+  
+      if (data.success) {
+        alert("✅ Quote submitted successfully!");
+        // Optionally reset form
+        setFormData({ name: '', email: '', phone: '', message: '' });
+      } else {
+        alert("❌ Failed to submit quote.");
+        console.error(data.error);
+      }
+    } catch (err) {
+      console.error("Request failed:", err);
+      alert("❌ An error occurred. Please try again.");
+    }
+  };  
 
   return (
     <section id="quote" className="w-full bg-white py-12 px-4 flex justify-center items-center">
