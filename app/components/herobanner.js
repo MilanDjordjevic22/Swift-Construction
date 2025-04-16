@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const HeroBanner = ({ imageUrl }) => {
   return (
@@ -11,7 +12,7 @@ const HeroBanner = ({ imageUrl }) => {
 
       {/* Text Content */}
       <div className="relative z-10 max-w-4xl text-center px-4">
-        <h1 className="text-[60px] font-serif font-bold text-white leading-none mb-1">
+        <h1 className="text-[60px] font-bold text-white leading-none mb-1">
         Swift Construction
         </h1>
         <h2 className="text-[30px] font-light text-white mb-5 -mt-2">
@@ -26,12 +27,16 @@ const HeroBanner = ({ imageUrl }) => {
 
         {/* Buttons */}
         <div className="flex gap-6 justify-center">
-        <button className="bg-[#D7AF4D] hover:bg-[#b98e32] text-white font-mono px-8 py-4 rounded-xl text-[18px] mr-3">
-                    Get A Quote
-                </button>
+        <Link href="#quote" scroll={true}>
+          <button className="bg-[#D7AF4D] hover:bg-[#b98e32] text-white font-mono px-8 py-4 rounded-xl text-[18px] mr-3" href="#quote">
+            Get A Quote
+          </button>
+        </Link>
+        <Link href="#services" scroll={true}>
           <button className="bg-[#D7AF4D] hover:bg-[#b98e32] text-white font-mono px-8 py-4 rounded-xl text-[18px] mr-3">
-                    Our Services
-                </button>
+            Our Services
+          </button>
+        </Link>
         </div>
       </div>
     </div>

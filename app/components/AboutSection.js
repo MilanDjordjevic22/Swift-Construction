@@ -16,7 +16,10 @@ const AboutSection = ({ imageUrl }) => {
       >
         <h1 className="text-6xl font-semibold mb-4">About Us</h1>
         <p className="text-[18px] mx-8">
-        We&#39;re a Calgary-based exterior renovation and repair company with deep roots in the construction industry. Known for our quality work and reliable service, we&#39;re a fast-growing team always on the lookout for new projects and partnerships. Whether it&#39;s residential or commercial, we bring experience, craftsmanship, and a commitment to excellence to every job.</p>
+        We&#39;re a Calgary-based exterior renovation and repair company with deep roots in the construction industry. 
+        Known for our quality work and reliable service, we&#39;re a fast-growing team always on the lookout for new projects 
+        and partnerships. Whether it&#39;s residential or commercial, we bring experience, craftsmanship, and a commitment to 
+        excellence to every job.</p>
       </div>
     </div>
   );

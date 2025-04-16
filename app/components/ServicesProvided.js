@@ -27,9 +27,9 @@ const services = [
 
 const ServicesProvided = () => {
   return (
-    <section className="py-20 px-4 bg-white text-black">
+    <section className="pt-20 pb-10 px-4 bg-white text-black">
       <div className="max-w-6xl mx-auto flex flex-col gap-16">
-        <h2 className="text-4xl font-serif font-semibold text-center mb-16">Servcies Provided</h2>
+        <h2 className="text-4xl font-serif font-semibold text-center">Servcies Provided</h2>
         {services.map((service, index) => (
           <div
             key={index}
@@ -48,8 +48,8 @@ const ServicesProvided = () => {
 
             {/* Text */}
             <div className="md:w-1/2 text-center md:text-left">
-              <h3 className="text-2xl font-serif font-semibold mb-2">{service.title}</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">{service.text}</p>
+              <h3 className="text-[30px] font-semibold mb-2">{service.title}</h3>
+              <p>{service.text}</p>
             </div>
           </div>
         ))}

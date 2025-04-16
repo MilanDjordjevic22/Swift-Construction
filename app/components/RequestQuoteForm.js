@@ -42,9 +42,9 @@ const RequestQuoteForm = () => {
   };  
 
   return (
-    <section id="quote" className="w-full bg-white py-12 px-4 flex justify-center items-center">
+    <section id="quote" className="w-full bg-white pt-10 pb-20 px-4 flex justify-center items-center">
       <div className="max-w-4xl w-full">
-        <h2 className="text-4xl font-light text-center mb-4">Request Quote</h2>
+        <h2 className="text-4xl font-semibold text-center mb-4">Request Quote</h2>
         <p className="text-center mb-10">
           Please take a moment to fill out the form.
         </p>

@@ -21,8 +21,8 @@ const whyItems = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-20 px-4 bg-white text-black">
-      <h2 className="text-4xl font-semibold text-center mb-16">Why Choose Us?</h2>
+    <section className="pt-20 pb-10 px-4 bg-white text-black">
+      <h2 className="text-4xl font-semibold text-center mb-10">Why Choose Us?</h2>
       <div className="max-w-6xl mx-auto flex flex-col gap-16">
         {whyItems.map((item, index) => (
           <div
@@ -39,8 +39,8 @@ const WhyChooseUs = () => {
               className="w-full md:w-[250px] h-[200px] object-cover rounded-lg shadow-lg"
             />
             <div className="md:w-2/3">
-              <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-              <p className="text-sm leading-relaxed text-gray-700">{item.text}</p>
+              <h3 className="text-[30px] font-semibold mb-2">{item.title}</h3>
+              <p>{item.text}</p>
             </div>
           </div>
         ))}

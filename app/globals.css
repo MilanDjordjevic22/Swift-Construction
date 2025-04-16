@@ -38,7 +38,7 @@ button, footer {
   font-family: var(--font-jetbrains);
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: var(--font-marcellus);
 }
 
@@ -48,5 +48,9 @@ p {
 
 html {
   scroll-behavior: smooth;
+}
+
+#contact-us-footer {
+  font-family: var(--font-jetbrains);
 }
 

@@ -18,7 +18,7 @@ const Footer = () => {
       <Link href="/">
         <Image
           src="/Swift Construction Logo.svg" 
-          alt="Building Icon"
+          alt="Building Icon for Swift Construction Ltd" 
           width={150}
           height={150}
         />
@@ -45,7 +45,7 @@ const Footer = () => {
 
     {/* Right: Contact Info */}
     <div>
-      <h3 className="font-semibold text-[26px] mb-2">Contact Us</h3>
+      <h3 id="contact-us-footer" className="font-semibold text-[26px] mb-2">Contact Us</h3>
       <ul className="text-[14px] space-y-1 mb-4">
         <li className="flex items-center gap-2">
           <FaPhoneAlt />
@@ -57,10 +57,10 @@ const Footer = () => {
         </li>
       </ul>
       <div className="flex gap-4 text-xl">
-        <a href="https://www.facebook.com/p/Swift-Construction-Ltd-100063935049998/?locale=en_GB" className="hover:text-yellow-400">
+        <a href="https://www.facebook.com/p/Swift-Construction-Ltd-100063935049998/?locale=en_GB" className="hover:text-[#A4792A]">
           <FaFacebookF />
         </a>
-        <a href="https://www.instagram.com/swift_construction.ltd/" className="hover:text-yellow-400">
+        <a href="https://www.instagram.com/swift_construction.ltd/" className="hover:text-[#A4792A]">
           <FaInstagram />
         </a>
       </div>
