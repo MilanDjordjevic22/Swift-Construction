@@ -10,7 +10,10 @@ const MainServices = ({ imageUrl }) => {
       <div className="absolute inset-0 bg-black/40" />
 
       {/* Center Box */}
-      <div className="relative z-10 max-w-2xl bg-[#6B4F3B] bg-opacity-95 text-white p-10 rounded-md shadow-lg text-center">
+      <div
+        className="relative z-10 max-w-2xl text-white p-10 rounded-md shadow-lg text-center"
+        style={{ backgroundColor: 'rgba(107, 79, 59, 0.9)' }}
+      >
         <h1 className="text-6xl font-serif font-semibold mb-4">Services</h1>
         <p className="text-[18px] mx-8">
         At Swift Construction, we offer a wide range of high-quality exterior services designed to enhance and protect your property. 

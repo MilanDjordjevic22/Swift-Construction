@@ -10,7 +10,10 @@ const CareersSection = ({ imageUrl }) => {
       <div className="absolute inset-0 bg-black/40" />
 
       {/* Center Box */}
-      <div className="relative z-10 max-w-2xl bg-[#6B4F3B] bg-opacity-85 text-white p-10 rounded-md shadow-lg text-center px-10">
+      <div
+        className="relative z-10 max-w-2xl text-white p-10 rounded-md shadow-lg text-center px-10"
+        style={{ backgroundColor: 'rgba(107, 79, 59, 0.9)' }}
+      >
         <h1 className="text-6xl font-semibold mb-4">Careers</h1>
         <p className="text-[18px] mx-8">
         We&#39;re always looking to add motivated, hardworking individuals to our growing team. 

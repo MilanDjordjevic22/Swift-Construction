@@ -14,7 +14,7 @@ const services = [
     text: 'Hardie board siding is a strong, weather-resistant option that gives your property a modern, polished appearance. It’s built to withstand harsh climates while boosting curb appeal.',
   },
   {
-    title: 'Painting',
+    title: 'Exterior Painting',
     image: '/painting.jpg',
     text: 'A fresh coat of exterior paint can completely transform your property. We use high-quality materials and professional techniques to ensure a smooth, lasting finish.',
   },

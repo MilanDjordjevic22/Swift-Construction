@@ -4,7 +4,7 @@ import Image from 'next/image';
 const whyItems = [
   {
     title: 'Unmatched Craftsmanship & Durability',
-    image: '/craftsmanship.jpg', // replace with your actual image in /public
+    image: '/craftsmanship.jpg',
     text: 'We take pride in delivering high-quality exterior construction that stands the test of time. Our skilled professionals use top-tier materials and precision craftsmanship to ensure durability, functionality, and aesthetic appeal in every project.',
   },
   {
