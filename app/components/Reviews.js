@@ -21,9 +21,9 @@ const reviews = [
 
 const Reviews = () => {
   return (
-    <section className="py-20 px-4 bg-white text-black">
-      <h2 className="text-4xl font-serif font-semibold text-center mb-16">
-        Words from our clients
+    <section className="py-5 px-4 bg-white text-black">
+      <h2 className="text-4xl font-semibold text-center mb-16">
+        Words From Our Clients
       </h2>
 
       <div className="max-w-6xl mx-auto grid gap-10 md:grid-cols-3">
