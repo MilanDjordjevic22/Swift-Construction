@@ -9,7 +9,7 @@ const Help = () => {
 
       {/* Paragraph (narrow) */}
       <p className="text-sm max-w-xl mx-auto mb-12 text-gray-700">
-      Need to get in touch? Call or text us at the number or email below or check out our FAQ for quick answers to common questions. We’re here to help!{' '}
+      Need to get in touch? Call or text us at the number or email below or check out our FAQ for quick answers to common questions. We&#39;re here to help!{' '}
         <a
           href="mailto:info@swiftconstructionltd.ca"
           className="text-blue-600 underline"

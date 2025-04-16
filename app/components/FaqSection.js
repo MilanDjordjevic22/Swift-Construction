@@ -16,7 +16,7 @@ const FaqSection = ({ imageUrl }) => {
       >
         <h1 className="text-6xl font-semibold mb-4">FAQ</h1>
         <p className="text-[18px] mx-8">
-        Have questions? Check out our FAQ below for quick answers to some of the most common things we&apos;re asked about our services, process, and what to expect.
+        Have questions? Check out our FAQ below for quick answers to some of the most common things we&#39;re asked about our services, process, and what to expect.
         </p>
       </div>
     </div>

@@ -19,7 +19,7 @@ const HeroBanner = ({ imageUrl }) => {
         </h2>
 
         <p className="text-base md:text-lg text-white mb-6">
-        Our team specializes in exterior remodeling for both residential and commercial properties, delivering high-quality, turnkey solutions tailored to each project. We offer a full range of services including stucco application, Hardie board installation, professional painting, and expert stone masonry. With a focus on craftsmanship and reliability, you can count on us to handle all your construction and maintenance needs with precision and care.        </p>
+        Our team specializes in exterior remodeling for both residential and commercial properties, delivering high-quality, turnkey solutions tailored to each project. We offer a full range of services including stucco application, Hardie board installation, professional painting, and expert stone masonry. With a focus on craftsmanship and reliability, you can count on us to handle all your construction and maintenance needs with precision and care.</p>
 
         {/* Buttons */}
         <div className="flex gap-6 justify-center">

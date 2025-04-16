@@ -16,9 +16,9 @@ const CareersSection = ({ imageUrl }) => {
       >
         <h1 className="text-6xl font-semibold mb-4">Careers</h1>
         <p className="text-[18px] mx-8">
-        We&apos;re always looking to add motivated, hardworking individuals to our growing team. 
-        Whether you're experienced in the trades or just getting started, we offer opportunities to learn, grow, and 
-        be part of high-quality exterior renovation projects. Below are the current positions we&apos;re looking to fill.
+        We&#39;re always looking to add motivated, hardworking individuals to our growing team. 
+        Whether you&#39;re experienced in the trades or just getting started, we offer opportunities to learn, grow, and 
+        be part of high-quality exterior renovation projects. Below are the current positions we&#39;re looking to fill.
         </p>
       </div>
     </div>
