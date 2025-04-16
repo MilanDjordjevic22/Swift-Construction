@@ -14,7 +14,7 @@ const router = useRouter();
   return (
   <div className="flex flex-col min-h-screen"> 
     <NavBar/>
-    <MainServices imageUrl="/mainbanner2.jpg"/>
+    <MainServices imageUrl="/servicebanner.jpg"/>
     <ServicesProvided/>
     <Reviews/>
     <RequestQuoteForm/>
